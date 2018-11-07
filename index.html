@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>JavaScript Lab</title>
-  <script src="index.js"></script>
 </head>
 <body>
   <form>
-      <input type="time" id="time" name="time" min="0:00" max="24:00" required>
-      <input type="button" onclick="greeting(time)">
+      <input type="text" id="time" name="time" length="2">
+      <input type="button" value="Submit" onclick="greet(document.getElementById('time').value)">
   </form>
   <h1 id="greeting"></h1>
+  <script src="index.js"></script>
 </body>
 </html>
