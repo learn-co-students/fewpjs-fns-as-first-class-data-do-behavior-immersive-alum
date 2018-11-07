@@ -11,5 +11,6 @@ function greet(time) {
     greet = 'Hello';
   }
   document.getElementById("greeting").innerHTML = greet;
+  return greet;
 }
 
