@@ -1,5 +1,5 @@
 function greet(time) {
-  var greet;
+  let greet;
 
   if (time < 12) {
       greet = 'Good Morning';
